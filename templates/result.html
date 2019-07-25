@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+   <body  background="http://localhost:1234/images/coffe2.jpg" >
+<head>
+    <title style="color: white">Coffe Result</title>
+</head>
+<body style="margin: 30px">
+    <h2 style="color: white">Coffe Prediction</h2>
+    <table>
+        <tr>
+            <td style="font-size: 30px;  color: white" >Aroma: {{ hasil.Aroma }}</td>
+            <td style="font-size: 30px;  color: white" >Flavor: {{ hasil.Flavor }}</td>
+            <td style="font-size: 30px;  color: white">Aftertaste: {{ hasil.Aftertaste }}</td>
+        </tr>
+        <tr>
+            <td style="color: white ; font-size: 30px">Acidity: {{ hasil.Acidity }}</td>
+            <td style="color: white; font-size: 30px" >Sweetness: {{ hasil.Sweetness }}</td>
+        </tr>    
+            <td style="color: white ;font-size: 30px">Balance: {{ hasil.Balance }}</td>
+            <td style="color: white; font-size: 30px">Mouthfeel: {{ hasil.Mouthfeel }}</td>
+    </table>
+
+    <h3 style="color: white ;font-size: 25px">PREDICTION: {{ hasil.PREDIKSI }}</h3>
+    
+</body>
+</html>

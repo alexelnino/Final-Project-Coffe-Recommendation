@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en"></html>
+    <body background="http://localhost:1234/images/blue.jpeg" >
+<head>
+    <title style="color: white">Coffe's Prediction</title>
+</head>
+<body style="margin: 30px" style="color: white">
+    <h1>Coffe's Prediction</h1>
+    <form action="http://localhost:1234/hasil" method="POST"
+    style="margin-left: 30px">
+        <h2>Range Input : 5 - 10</h2> 
+        <h2>1. Aroma</h2> 
+        <p>Fragrance atau aroma meliputi bau kopi ketika masih kering dan ketika sudah diseduh. Aroma pada kopi bisa dinilai melalui tahapan-tahapan, yakni dengan mencium bubuk kopi sebelum di seduh, mencium bau kopi ketika mengaduk permukaan kopi yang telah diseduh dan mencium bau kopi ketika kopi sudah larut.</p>                
+        <br><br>Aroma:
+        <input name="Aroma" placeholder="Insert aroma..." type="number" step="0.1" 
+        min="5" max="10" style="width: 100px"/>
+        <h2>2. Flavor</h2>
+        <p>Flavour ada kekhasan rasa dari secangkir kopi yang merupakan hasil perpaduan antara aroma, acidity dan aftertaste. Flavour pada kopi dirasakan dengan lidah dan juga melalui hidung untuk dirasakan baunya. Flavour yang baik adalah flavour yang berupa hasil kombinasi komponen rasa yang baik.</p>
+        <br><br>Flavor:
+        <input name="Flavor" placeholder="Insert Flavor..." type="number" step="0.1"
+        min="5" max="10" style="width: 100px"/>
+        <h2>3. Aftertaste</h2>
+        <p>Aftertaste ialah rasa yang tertinggal setelah menyeruput kopi yang biasa kamu rasakan di langit-langit belakang mulut. Semakin enak dan semakin awet rasa pada aftertaste maka akan semakini bernilai tinggi.</p>
+        <br><br>Aftertaste:
+        <input name="Aftertaste" placeholder="Insert Aftertaste..." type="number" step="0.1"
+        min="5" max="10" style="width: 100px"/>
+        <h2>4. Acidity</h2>
+        <p>Acidity adalah rasa asam yang terkandung pada kopi. Tidak semua rasa asam dianggap baik pada secangkir kopi. Asam yang baik umumnya terasa manis seperti buah segar ketika diseruput. Sedangkan asam yang buruk umumnya adalah yang berlebihan.</p>
+        <br><br>Acidity:
+        <input name="Acidity" placeholder="Insert Acidity..." type="number" step="0.1"
+        min="5" max="10" style="width: 100px"/>
+        <h2>5. Sweetness</h2>
+        <p>Sweetness adalah rasa manis-kemanisan yang terkandung dalam secangkir kopi. Kopi mengandung karbohidrat sehingga juga memiliki rasa sweetness. Lawan kata dari sweetness ialah sour, astringent atau mentah.</p>
+        <br><br>Sweetness:
+        <input name="Sweetness" placeholder="Insert Sweetness..." type="number" step="0.1"
+        min="5" max="10" style="width: 100px"/>
+        <h2>6. Balance</h2>
+        <p>Balance adalah gabungan berbagai rasa pada kopi yang terasa seimbang. Semakin seimbang rasa kopi maka nilai balance akan semakin unggul.</p>
+        <br><br>Balance:
+        <input name="Balance" placeholder="Insert Balance..." type="number" step="0.1"
+        min="5" max="10" style="width: 100px"/>
+        <h2>7. Mouthfeel</h2>
+        <p>Mouthfeel adalah sensasi fisik yang dibuat makanan atau minuman di mulut, termasuk lidah dan atap mulut. Ini berbeda dengan rasa atau rasa, meski beberapa istilah mouthlightel tumpang tindih dengan rasa atau aftertaste.</p>
+        <br><br>Mouthfeel:
+        <input name="Mouthfeel" placeholder="Insert Mouthfeel..." type="number" step="0.1"
+        min="5" max="10" style="width: 100px"/>
+
+        <br><br>
+        <input type="submit" value="PREDICT">
+
+    </form>
+</body>
+</html>
