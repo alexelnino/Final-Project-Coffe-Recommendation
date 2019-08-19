@@ -1,5 +1,6 @@
 "# Final-Project-Coffe-Recommendation" 
 
+data didapat dari : https://github.com/jldbc/coffee-quality-database
 Memprediksi kopi yang sesuai dengan properties yang user inginkan dengan metode random forest.
 dengan 90 % train dan 10 % tes
 
